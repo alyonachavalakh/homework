@@ -1,3 +1,5 @@
+#Написать программу, которая выводит сама себя
+
 import sys
 filename = sys.argv[0]
 f = open(filename, 'r') 
