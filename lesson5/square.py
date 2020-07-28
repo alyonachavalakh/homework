@@ -1,6 +1,8 @@
-from math import sqrt
-from itertools import count, islice
+#Написать функцию которая будет простое число возводить в квардрат.
+#Необходимо возвести в квадрат все простые числа в списке используя функцию map
 
+from math import sqrt
+from itertools import count, i
 
 def simple_square(num):
     if is_prime(num):
