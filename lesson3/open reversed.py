@@ -1,3 +1,5 @@
+#Написать программу, которая выводит саму себя задом наперед
+
 import sys
 sumfor = sys.argv[0]
 f = open(sumfor, 'r')
