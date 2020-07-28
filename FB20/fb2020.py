@@ -1,6 +1,5 @@
 f = open('values1.txt')
 numberlines = list()
-r = open('resultforfb20.py ', 'w')
 for line in f.readlines():
         numberlines.extend(line.rstrip().split('/n')) #разделили файл на строки
 digits = []
@@ -23,5 +22,5 @@ for item in numberlines:
         else:
             print(num)
 
-
-print(l)
+with open('resultforfb20.py','w') as r:
+    print([l], file=r)
